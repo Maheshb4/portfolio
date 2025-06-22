@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bathula Mahesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">MAHESH</div>
+        <input type="checkbox" id="menu-toggle" hidden>
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="particles-js">
+        <section class="hero">
+            <div class="hero-left">
+                <p class="tagline">CODING MY DREAMS INTO REALITY</p>
+                <h1>Hi, I am <span>Bathula Mahesh</span><br>I build responsive & modern websites.</h1>
+                <div class="buttons">
+                    <a href="#contact" class="btn primary">Hire me</a>
+                    <a href="Resume_b4new21.pdf" class="btn outline" download>Download CV</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="bg-skew"></div>
+                <img src="https://res.cloudinary.com/dvptsukr2/image/upload/v1723052158/IMG_20240622_125551-fotor-2024080723522_gurxet.png" alt="Mahesh">
+            </div>
+        </section>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="https://res.cloudinary.com/dvptsukr2/image/upload/v1696954808/il3igskon9mpr49e4brc.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-content">
+                    <h5 class="section-subtitle">MY INTRODUCTION</h5>
+                    <h2>About Me</h2>
+                    <p>
+                        I'm Bathula Mahesh, a web developer from Andhra Pradesh. I enjoy building responsive and user-friendly websites using HTML, CSS, and JavaScript. I have hands-on experience with weather-based web apps and Python projects.
+                    </p>
+                    <p><em>"Creativity is intelligence having fun."</em></p>
+
+                    <div class="about-details">
+                        <p><strong>Name:</strong> Bathula Mahesh</p>
+                        <p><strong>Date of birth:</strong> March 24, 2005</p>
+                        <p><strong>Address:</strong> Uravakonda, Andhra Pradesh, India</p>
+                        <p><strong>Zip code:</strong> 515812</p>
+                        <p><strong>Email:</strong> mahimahesh27543@gmail.com</p>
+                        <p><strong>Phone:</strong> +91-8074529025</p>
+                    </div>
+                    <div class="interests">
+                        <span><i class="fas fa-music"></i> Music</span>
+                        <span><i class="fas fa-futbol"></i> Sports</span>
+                        <span><i class="fas fa-pen"></i> Writing</span>
+                        <span><i class="fas fa-headphones"></i> Listening</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/html-5.png" alt="HTML Icon" class="skill-icon">
+            <h4>HTML</h4>
+            <div class="level-label">95%</div>
+        </div>
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/css3.png" alt="CSS Icon" class="skill-icon">
+            <h4>CSS</h4>
+            <div class="level-label">90%</div>
+        </div>
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/javascript.png" alt="JavaScript Icon" class="skill-icon">
+            <h4>JavaScript</h4>
+            <div class="level-label">80%</div>
+        </div>
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/python.png" alt="Python Icon" class="skill-icon">
+            <h4>Python</h4>
+            <div class="level-label">85%</div>
+        </div>
+        <div class="skill-card">
+            <img src="https://img.icons8.com/color/96/mysql-logo.png" alt="MySQL Icon" class="skill-icon">
+            <h4>MySQL</h4>
+            <div class="level-label">75%</div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="weather-app.jpg" alt="Weather App">
+                <div class="project-info">
+                    <h3>Weather API App</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form" action="https://formspree.io/f/xpwryzyv" method="POST">
+                <div class="form-group"><input type="text" name="name" placeholder="Your Name" required></div>
+                <div class="form-group"><input type="email" name="email" placeholder="Your Email" required></div>
+                <div class="form-group"><textarea name="message" rows="5" placeholder="Your Message" required></textarea></div>
+                <button type="submit" class="btn primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <h3>MAHESH</h3>
+            <p>Crafting frontend experiences with code & creativity ✨</p>
+            <div class="social-icons">
+                <a href="https://github.com/Maheshb4" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/maheshbathula8074" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_user_is_psychoo?igsh=MWk3cGQ5MTFpMzdxbg==" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2025 Bathula Mahesh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
+        ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
+        ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
+        ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
+        ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
+    </script>
+</body>
+
+</html>
